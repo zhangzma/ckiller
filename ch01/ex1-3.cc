@@ -1,3 +1,6 @@
+// file ex1-3.cc
+// print "Hello world"
+
 #include <iostream>
 
 int main(int argc, char *argv[])
