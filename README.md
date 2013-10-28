@@ -1,1 +1,3 @@
-Hello ckiller
+# Ckiller 是什么？
+  本项目主要是关于《C++ Primer》该书的练习。
+  他应该不会是别的什么东西。
