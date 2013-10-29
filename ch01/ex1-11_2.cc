@@ -1,13 +1,13 @@
+// file "ex1-11_2.cc"
+// for version
 #include <iostream>
 
 int main(int argc, char *argv[])
 {
-    int sum = 0;
 	for (int i = 10; i > 0; --i)
 	{
-		sum += i;
+		std::cout << i << " ";
 	}
-	std::cout << "Sum of 10 to 0 inclusive is "
-			  << sum << std::endl;
+
     return 0;
 }
