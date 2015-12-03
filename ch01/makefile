@@ -14,3 +14,4 @@ all:$(BIN)
 
 clean:
 	rm -f *.o $(BIN)
+
