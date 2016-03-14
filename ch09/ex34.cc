@@ -9,9 +9,12 @@ using std::string;
 char to_upper(char ch)
 {
     // 8, 4, 2, 1 
-    return (ch & 0xDF);
+    if (ch >= 'a' && ch <= 'z') {
+        return (ch & 0xDF);
+    } else {
+        return ch;
+    }    
 }
-
 
 int main(int argc, char *argv[])
 {
@@ -29,6 +32,3 @@ int main(int argc, char *argv[])
     std::cout << str << std::endl;
     return 0;
 }
-
-
-
